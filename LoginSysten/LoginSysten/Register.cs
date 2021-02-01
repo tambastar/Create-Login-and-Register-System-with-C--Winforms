@@ -32,5 +32,13 @@ namespace LoginSysten
             // closses the register window
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // start login window
+            Form1 login  = new Form1();
+
+            login.Show();
+        }
     }
 }
